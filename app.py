@@ -19,8 +19,7 @@ project_folder = '/content/drive/My Drive/Comment_Toxicity_Project/'
 # Change the current working directory to your project folder
 os.chdir(project_folder)
 
-# Install necessary libraries
-!pip install streamlit pyngrok
+
 
 import streamlit as st
 import pandas as pd
