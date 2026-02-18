@@ -7,17 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1qRHJbP3yP8MI3FNVckwecTxVpDxqf51U
 """
 
-from google.colab import drive
-import os
 
-# Mount your Google Drive
-drive.mount('/content/drive')
-
-# Set the path to your project folder
-project_folder = '/content/drive/My Drive/Comment_Toxicity_Project/'
-
-# Change the current working directory to your project folder
-os.chdir(project_folder)
 
 
 
